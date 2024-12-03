@@ -68,20 +68,6 @@ The plugin configuration for a patient only should look like below (assuming all
         "servicePrefix": "/organization",
         "apiId": "POST/organization/v1/users/patients/templates/{templateName}",
         "order": 2
-      },
-            {
-        "type": "PRE_REQUEST",
-        "entityTypeName": "patient",
-        "servicePrefix": "/organization",
-        "apiId": "POST/organization/v1/users/patients/sign-up/anonymous",
-        "order": 3
-      },
-            {
-        "type": "PRE_REQUEST",
-        "entityTypeName": "patient",
-        "servicePrefix": "/organization",
-        "apiId": "POST/organization/v1/users/patients/sign-up",
-        "order": 4
       }
     ],
     "notifications": []
