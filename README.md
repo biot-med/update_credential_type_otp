@@ -42,7 +42,7 @@ Upload the the plugin.zip as with interceptor subscription to any action for any
 
 
 The plugin configuration for a patient only should look like below (assuming all sign up method are used):
-
+```
 {
   "name": "update_credential_type",
   "displayName": "Update to OTP Login",
@@ -88,10 +88,10 @@ The plugin configuration for a patient only should look like below (assuming all
   },
   "enabledState": "ENABLED"
 }
-
+```
 
 For caregivers, the configuration should look like:
-
+```
 {
   "name": "update_credential_type",
   "displayName": "Update to OTP Login",
@@ -122,9 +122,9 @@ For caregivers, the configuration should look like:
   },
   "enabledState": "ENABLED"
 }
-
+```
 For organization users, the configuration should look like:
-
+```
 {
   "name": "update_credential_type",
   "displayName": "Update to OTP Login",
@@ -155,9 +155,9 @@ For organization users, the configuration should look like:
   },
   "enabledState": "ENABLED"
 }
+```
 
-
-You can configure the plugin to accepts all types of users, or just 2 of them.
+It's possible to combine configurations so the plugin will accept more than 1 type of users.
 
 
 
