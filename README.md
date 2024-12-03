@@ -32,7 +32,7 @@ pip freeze > requirements.txt
 
 You can add additional logic to the plugin's code -> Go To [src/interceptor_pre/perform.py](./src/interceptor_pre/perform.py) 
 
-run to create plugin.zip file (the pack script and the zip file parts are only relevant for non docker IMAGE plugins, for using the IMAGE deployment package type, scroll down for the docker section)
+run to create plugin.zip file 
 ```
 python3 scripts/pack.py
 ```
